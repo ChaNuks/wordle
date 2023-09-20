@@ -1,0 +1,45 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.keyboard-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #818384;
+}
+
+.keyboard-btn__enter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #818384;
+}
+
+.keyboard-btn__x {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #818384;
+}

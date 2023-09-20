@@ -1,0 +1,48 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.board-bar__menuLeft {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.board-bar__menuLeft:hover {
+  cursor: pointer;
+}
+
+.board-bar__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 140px;
+}
+
+.board-bar__menuRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-bar__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.board-bar__sub button {
+  width: 105px;
+  height: 20px;
+  font-size: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.board-bar__sub button:hover {
+  background-color: salmon;
+}
